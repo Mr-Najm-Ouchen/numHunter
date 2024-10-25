@@ -1,114 +1,123 @@
 # numHunter
 
 
-Installation Guide for Phone Information Tool
-This guide will help you download and set up the Phone Information Tool on different operating systems, including Windows, macOS, and Linux.
-
+Installation Guide for Phone Information Tool from GitHub
 Prerequisites
-Before installing the tool, ensure you have the following:
+Before downloading the tool, ensure you have the following:
 
-Python 3.x: Make sure Python 3 is installed on your system. You can download it from the official Python website.
+Git: Installed on your system. If you don't have Git, download it from git-scm.com.
+Python 3.x: Ensure Python 3 is installed. You can download it from the official Python website.
 Numverify API Key: Sign up for an account on Numverify to obtain your API key.
 Installation Steps
 For Windows
-Download Python:
+Install Git:
 
-Visit the Python download page.
-Download the latest version of Python 3.x and run the installer.
-During installation, make sure to check the box that says “Add Python to PATH”.
+Download Git from git-scm.com and install it.
+Open Command Prompt:
+
+Press Win + R, type cmd, and hit Enter.
+Clone the Repository:
+
+Navigate to the directory where you want to download the tool:
+bash
+Copier le code
+cd path\to\your\directory
+Clone the repository using the following command:
+bash
+Copier le code
+git clone https://github.com/Mr-Najm-Ouchen/numHunter.git
 Install Requests Library:
 
-Open Command Prompt (search for "cmd" in the Start menu).
-Run the following command to install the Requests library:
+Navigate into the cloned directory:
+bash
+Copier le code
+cd numHunter
+Install the required libraries:
 bash
 Copier le code
 pip install requests
-Download the Tool:
-
-Create a new directory where you want to store the tool (e.g., C:\PhoneInfoTool).
-Open a text editor (like Notepad) and copy the Phone Information Tool code into a new file.
-Save the file as phone_info.py in the directory you created.
 Configuration:
 
-Open phone_info.py in the text editor.
+Open the phone_info.py file in a text editor (like Notepad).
 Replace YOUR_API_KEY with your actual Numverify API key.
 Run the Tool:
 
-Open Command Prompt and navigate to the directory where the script is saved:
-bash
-Copier le code
-cd C:\PhoneInfoTool
-Run the tool with the following command:
+In Command Prompt, run the tool with the following command:
 bash
 Copier le code
 python phone_info.py
 For macOS
-Download Python:
+Install Git:
 
-Visit the Python download page.
-Download the latest version of Python 3.x and install it.
+Open Terminal and install Git using Homebrew (if Homebrew is not installed, follow instructions on brew.sh):
+bash
+Copier le code
+brew install git
+Clone the Repository:
+
+In Terminal, navigate to the directory where you want to download the tool:
+bash
+Copier le code
+cd ~/Documents  # or any other directory
+Clone the repository:
+bash
+Copier le code
+git clone https://github.com/Mr-Najm-Ouchen/numHunter.git
 Install Requests Library:
 
-Open Terminal (you can find it in Applications > Utilities).
-Run the following command to install the Requests library:
+Navigate into the cloned directory:
+bash
+Copier le code
+cd numHunter
+Install the required libraries:
 bash
 Copier le code
 pip3 install requests
-Download the Tool:
-
-Create a new directory for the tool (e.g., ~/PhoneInfoTool).
-Open a text editor (like TextEdit) and copy the Phone Information Tool code into a new file.
-Save the file as phone_info.py in the directory you created.
 Configuration:
 
-Open phone_info.py in the text editor.
+Open the phone_info.py file in a text editor (like TextEdit).
 Replace YOUR_API_KEY with your actual Numverify API key.
 Run the Tool:
 
-Open Terminal and navigate to the directory where the script is saved:
-bash
-Copier le code
-cd ~/PhoneInfoTool
-Run the tool with the following command:
+In Terminal, run the tool with the following command:
 bash
 Copier le code
 python3 phone_info.py
 For Linux
-Download Python:
+Install Git:
 
-Most Linux distributions come with Python pre-installed. To check if Python 3 is installed, open Terminal and run:
-bash
-Copier le code
-python3 --version
-If it's not installed, you can install it using your package manager (e.g., for Ubuntu):
+Open Terminal and install Git (if not already installed):
 bash
 Copier le code
 sudo apt update
-sudo apt install python3
+sudo apt install git
+Clone the Repository:
+
+Navigate to the directory where you want to download the tool:
+bash
+Copier le code
+cd ~/Documents  # or any other directory
+Clone the repository:
+bash
+Copier le code
+git clone https://github.com/Mr-Najm-Ouchen/numHunter.git
 Install Requests Library:
 
-In Terminal, run the following command to install the Requests library:
+Navigate into the cloned directory:
+bash
+Copier le code
+cd numHunter
+Install the required libraries:
 bash
 Copier le code
 pip3 install requests
-Download the Tool:
+Configuration:
 
-Create a new directory for the tool (e.g., ~/PhoneInfoTool):
-bash
-Copier le code
-mkdir ~/PhoneInfoTool
-Navigate to the new directory:
-bash
-Copier le code
-cd ~/PhoneInfoTool
-Open a text editor (like nano) and copy the Phone Information Tool code into a new file:
+Open the phone_info.py file in a text editor (like nano):
 bash
 Copier le code
 nano phone_info.py
-Save the file (in nano, press CTRL + O to save and CTRL + X to exit).
-Configuration:
-
-Open phone_info.py in the text editor again and replace YOUR_API_KEY with your actual Numverify API key.
+Replace YOUR_API_KEY with your actual Numverify API key.
 Run the Tool:
 
 In Terminal, run the tool with the following command:
